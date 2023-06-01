@@ -10,7 +10,7 @@ namespace ProjectEasySolWebErp.Controllers
 
         public HomeController(ILogger<HomeController> logger)
         {
-            _logger = logger;
+           _logger = logger; 
         }
 
         public IActionResult Index()
@@ -18,7 +18,7 @@ namespace ProjectEasySolWebErp.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Privacy() 
         {
             return View();
         }
